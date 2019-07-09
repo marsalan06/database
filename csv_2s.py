@@ -21,6 +21,7 @@ def into_csv(l,combo):
     #     for i in content:
     #         l+=i
     #     print(l)
+    #pushcheck
 
 if __name__=="__main__":
     while True:
