@@ -25,9 +25,11 @@ def into_csv(l,combo):
 
 if __name__=="__main__":
     while True:
-        user_input=str(input("to create file press C , to append press P to quit press any other key: "))
+        user_input=str(input("to create file press C , to append press P, to view file press V, to quit press any other key: "))
         if user_input=="C" or user_input=="c":
             u=to_csv()#own func
+        elif user_input =="v" or user_input =="V":
+            json_user.json_load()
         elif user_input == "P" or user_input=="p":
             user_input=str(input("enter file name: "))
             combo_1 = "C:\\Users\\arsal\\Desktop\\anaconda\\file prsactice\\csv\\"
