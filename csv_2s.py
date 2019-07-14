@@ -18,6 +18,7 @@ def into_csv(l,combo):
     # with open(combo,"r",newline="") as f:
     #     content=csv.reader(f)
     #     l=[]
+    #comment test
     #     for i in content:
     #         l+=i
     #     print(l)
