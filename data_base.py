@@ -20,7 +20,7 @@ def post(record):
     print(record.count_documents({}))
 
 from pymongo import MongoClient
-client=MongoClient("mongodb+srv://test:test@cluster0-yro7g.mongodb.net/test?retryWrites=true&w=majority")
+client=MongoClient("mongodb+srv://test:****@cluster0-yro7g.mongodb.net/test?retryWrites=true&w=majority")
 print(client.list_database_names())
 db=client.get_database("udemy_collect")
 record=db.test
